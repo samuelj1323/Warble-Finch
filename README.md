@@ -1,6 +1,6 @@
 # Warble-Finch
 
-Warble finch is an audio platform that enables users to...
+Warble finch is an audio platform that enables users to....
 
 ## V1
 
