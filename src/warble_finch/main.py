@@ -2,6 +2,8 @@ from enum import Enum
 
 from fastapi import FastAPI
 
+from .routers.projects_router import router
+
 
 class ModelName(str, Enum):
     alexnet = "alexnet"
@@ -10,6 +12,7 @@ class ModelName(str, Enum):
 
 
 app = FastAPI()
+app.include_router(router)
 
 
 @app.get("/")
